@@ -17,6 +17,7 @@
             public const string PutAsync = "PutAsync";
             public const string DeleteAsync = "DeleteAsync";
             public const string RouteAttribute = "api/{culture:culture}/v{version:apiVersion}/[controller]";
+            public const string HelloWorld = "HelloWorld";
         }
 
         public class CustomException
