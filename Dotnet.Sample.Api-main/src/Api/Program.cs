@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 
 namespace Dotnet.Sample.Api
 {
-    internal static class Program
+    public static class Program
     {
-        private static async Task Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var webHost = CreateHostBuilder(args).Build();
-
+        
             await webHost.RunAsync();
         }
 
