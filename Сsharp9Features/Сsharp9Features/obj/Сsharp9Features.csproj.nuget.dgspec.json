@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\coding\\Сsharp9Features\\Сsharp9Features\\Сsharp9Features.csproj": {}
+    "C:\\coding\\coding_interview\\Сsharp9Features\\Сsharp9Features\\Сsharp9Features.csproj": {}
   },
   "projects": {
-    "C:\\coding\\Сsharp9Features\\Сsharp9Features\\Сsharp9Features.csproj": {
+    "C:\\coding\\coding_interview\\Сsharp9Features\\Сsharp9Features\\Сsharp9Features.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\coding\\Сsharp9Features\\Сsharp9Features\\Сsharp9Features.csproj",
+        "projectUniqueName": "C:\\coding\\coding_interview\\Сsharp9Features\\Сsharp9Features\\Сsharp9Features.csproj",
         "projectName": "Сsharp9Features",
-        "projectPath": "C:\\coding\\Сsharp9Features\\Сsharp9Features\\Сsharp9Features.csproj",
+        "projectPath": "C:\\coding\\coding_interview\\Сsharp9Features\\Сsharp9Features\\Сsharp9Features.csproj",
         "packagesPath": "C:\\Users\\suhor\\.nuget\\packages\\",
-        "outputPath": "C:\\coding\\Сsharp9Features\\Сsharp9Features\\obj\\",
+        "outputPath": "C:\\coding\\coding_interview\\Сsharp9Features\\Сsharp9Features\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\suhor\\AppData\\Roaming\\NuGet\\NuGet.Config"
