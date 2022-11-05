@@ -49,14 +49,14 @@ namespace Dotnet.Sample.Infrastructure.Extensions
                     options.GroupNameFormat = "'v'VVV";
                     options.SubstituteApiVersionInUrl = true;
                 });
-
+            
             services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
 
             services.AddSwaggerGen(c =>
                 {
-                    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.XML";
-                    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-                    c.IncludeXmlComments(xmlPath);
+                    //var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.XML";
+                   // var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                  //  c.IncludeXmlComments(xmlPath);
                     c.OperationFilter<SwaggerDefaultValues>();
                     var securityDefinition = new OpenApiSecurityScheme
                     {
