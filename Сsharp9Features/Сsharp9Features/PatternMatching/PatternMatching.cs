@@ -1,7 +1,16 @@
-﻿namespace Сsharp9Features.PatternMatching;
+﻿using System.Drawing;
+
+namespace Сsharp9Features.PatternMatching;
 
 public class PatternMatching
 {
+    public record Point(int X, int Y);
+    public record Segment(Point Start, Point End);
+
+    static bool IsAnyEndOnXAxis(Segment segment) =>
+        segment is { Start: { Y: 0 } } or { End: { Y: 0 } };
+    
+    
     public void Test()
     {
         var numbers = new int[] { 10, 20, 30 };
